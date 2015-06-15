@@ -11,9 +11,9 @@ Contoh CRUD buat yang baru belajar Laravel
 ## Cara install 
 
 * Menggunakan terminal atau command prompt, clone repo ini ke lokal dengan command `git clone <url>`, kemudian masuk ke direktori aplikasi. 
-* Setelah berhasil, jalankan command `composer install`
 * Buat file `.env.php` atau `.env.local.php`, tergantung environment aplikasi. Kalau belum tahu, ke sini http://laravel.com/docs/4.2/configuration#environment-configuration
 * Copy dan paste isi `.env.example.php` ke file tadi, kemudian rubah sesuai konfigurasi yang diinginkan. Jangan lupa buat databasenya.
+* Setelah berhasil, jalankan command `composer install`
 * Jalankan command `php artisan migrate --seed`
 * Jalankan command `php artisan serve`
 * Buka browser, ketik `http://localhost:8000` di address bar, kemudian hit enter!

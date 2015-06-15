@@ -36,6 +36,10 @@
 					@endforeach
 				</tbody>
 			</table>
+
+			<div class="center-block">
+				{{ $siswa->appends(Request::except('page'))->links() }}
+			</div>
 		</div>
 	</div>
 @stop

@@ -9,7 +9,7 @@ class SiswaController extends \BaseController {
 	 */
 	public function index()
 	{
-		$siswa = Siswa::paginate(10);
+		$siswa = Siswa::paginate(1);
 
 		return View::make('siswa.index', compact('siswa'));
 	}
